@@ -1,3 +1,70 @@
-// Place all the styles related to the events controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+//	background-color: #000000;
+	//background:url(images/sa_bg.png) repeat;
+	padding:0;
+	margin:0;
+	background: #e8eff5 url("/assets/noise.png")
+}
+h1,h2{
+	padding-top: .2em;
+	color: #e50;
+	text-shadow: 0 2px white;
+}
+a{color:#e8eff5;}
+div.background{
+	display:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+	background: yellow;
+	width: 100%;
+	height: 300px;
+}
+.repang_title{font-family: 'Merriweather Sans', sans-serif;}
+a{color:#ffffff; size:1px;}
+span.inline-meta{color:#ffffff; size:1px;}
+
+div.header{
+	background-color:#13284B;
+}
+h1.repang_title{
+	font-size: 36px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	color: #E84B25;
+}
+h2.repang_title{
+	line-height: 14px;
+	font-size: 12px;
+	margin: 0 0 0 28px;
+	padding: 0 0 0 0;
+	color: #FEFB85;
+}
+div.event_image{
+	margin-top:2px;
+	margin-bottom:4px;
+}
+div.banner{
+	margin-bottom: 8px;
+}
+.container{max-width:720px;}
+div.footer{margin-top: 40px;}
+h1.event_title{text-align:center; margin-top:40px; margin-bottom:30px;}
+div.event_info{text-align:right;}
+div.ninesixty{width:960px;}
+p.center{color: #005580; text-align:center;}
+a.link_to_list{font-size: 18px;}
+#register_form {display:none;}
+.uneditable-input{width:300px; height: 100px; overflow: scroll;}
+#agree{float:left; }
+.lable_box{float:left; width:300px; margin-left:4px;}
+h2.modal_title{font-size:16px; color:#fff; text-align:center;}
+div.agree_doc{
+	width:300px; 
+	height:100px; 
+	overflow: scroll; 
+	background-color:#fff; 
+	padding:4px; 
+	color:#000;
+}
+a.simplemodal-close{float: right; text-decoration: none;}

@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>EggCooker</title>
+  <title>제1회 계란요리경연대회</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<div class="header">
+		<div class="container">
+			<a href="/events">
+			</a>
+		</div>
+	</div>
+	<div class="container">
 
-<%= yield %>
-
+		<%= yield %>
+		<div class="footer">
+			<p>계란자조금관리위원회</p>
+			<p>서울시 서초구 서초동 1553-14 경희빌딩 3층 TEL:02-523-9938</p>
+		</div>
+	</div>
 </body>
 </html>
