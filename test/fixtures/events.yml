@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  started_at: 2013-07-05 15:36:49
+  finished_at: 2013-07-05 15:36:49
+  title: MyString
+  status: MyString
+  image_url: MyString
+  facebook_description: MyString
+
+two:
+  started_at: 2013-07-05 15:36:49
+  finished_at: 2013-07-05 15:36:49
+  title: MyString
+  status: MyString
+  image_url: MyString
+  facebook_description: MyString
