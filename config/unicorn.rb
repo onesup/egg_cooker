@@ -6,6 +6,7 @@ stdout_path "#{root}/log/unicorn.out.log"
  
 # change the YOUR_APP_NAME to your application name
 listen "/tmp/unicorn.egg_cooker.sock"
+listen 8080, :tcp_nopush => true
 worker_processes 2
 timeout 30
 
